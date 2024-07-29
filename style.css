@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;  
+    background-image:url("image.jpg") ; 
+    background-position: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    background: whitesmoke;
+    height: 300px;
+    width: 500px;
+ font-size: 18px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px saddlebrown ;
+    box-shadow: 0 15px 20px rgba(1, 1, 0.5, 10); 
+}
+textarea{
+    height: 100px;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border-radius: 20px;
+    border: 3px grey ;
+    padding:10px;
+    font-size: 18px;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    padding: 0  5px;
+}
+.counter p{
+    font-size: 10px;
+    color: crimson;
+}
+ .tot-char{
+    font-size: large;
+    color:blue;
+    font-family: sans-serif;
+
+
+}
+.rem-char{
+    font-size: large;
+    color:red;
+    font-family: sans-serif;
+
+
+}
